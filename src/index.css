@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-mono: "Montserrat", sans-serif;
+
+  --color-clinic-navy: #0B1630;
+  --color-clinic-teal: #BD9F77;
+  --color-clinic-teal-hover: #A7885F;
+  --color-clinic-slate-gray: #54647F;
+  --color-clinic-cream: #F9F6F0;
+  --color-clinic-gold: #7E613D;
+}
+
+/* Custom numbers font helper */
+.font-num {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Blueprint grid overlays */
+.blueprint-grid {
+  background-image: radial-gradient(rgba(13, 148, 136, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.blueprint-grid-heavy {
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, rgba(13, 148, 136, 0.05) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(13, 148, 136, 0.05) 1px, transparent 1px);
+}

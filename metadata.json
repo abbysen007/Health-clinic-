@@ -1,0 +1,6 @@
+{
+  "name": "Health Point Clinic",
+  "description": "Premium clinical website and interactive booking platform for Health Point Clinic, Konnagar. Highlighting our NABL accredited laboratory and 32-Slice CT Scan with 3D Reconstruction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
